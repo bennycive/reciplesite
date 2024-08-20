@@ -1,0 +1,17 @@
+{
+  "name": "foodsite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i src/styles.css -o public/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
+  }
+}
